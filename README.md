@@ -30,16 +30,24 @@ Santa's helper is a Game where the player has to help Santa fill his Santa with 
 - handleStart () {}
 - draw () {}
 - animateSanta () {}
+- inscreaseSpeed () {}
 - restart () {}
 - Event Listeners () {}
 
 ### style.css
-- Start page
+- Start page:
+    center
+    startbutton
+    instructions-box
 - Game page
+    myCanvas
 - Game over page
+    gameover-page h1
+    gameover-page h3
+    dw
+    restartbutton
 
 ## States and States Trasitions
-Definition of the different states and their transition (transition functions)
 
 - StartScreen
 - GameScreen
@@ -66,6 +74,8 @@ Definition of the different states and their transition (transition functions)
 - Game - addEventListener
 
 ## Additional Links
-### Trello
+
 ### Git
+[Repository](https://github.com/cruzines/SantasHelper-Game)
+
 ### Slides

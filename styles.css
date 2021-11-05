@@ -1,95 +1,93 @@
-body{
-    background-color: #b32328;
-    color: white;
-    font-family: 'Mountains of Christmas', cursive;
+body {
+  background-color: #b32328;
+  color: white;
+  font-family: "Mountains of Christmas", cursive;
 }
 
 .center {
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 50px;
-    margin-bottom: 20px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 50px;
+  margin-bottom: 20px;
 }
 
-.startbutton{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    color: white;
-    text-transform: uppercase;
-    font-weight: bolder;
-    background: #859238;
-    padding: 25px;
-    border-color: white;
-    border-width: 5px;
-    border-radius: 10px;
-    font-size: 20px;
+.startbutton {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bolder;
+  background: #859238;
+  padding: 25px;
+  border-color: white;
+  border-width: 5px;
+  border-radius: 10px;
+  font-size: 20px;
 }
-
-#myCanvas{
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-}
-
-#instructions-box{
+#instructions-box {
     text-align: center;
     margin-bottom: 40px;
-    margin-top: 40px
+    margin-top: 40px;
+  }
+
+#myCanvas {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
-h1{
-    font-size: 40px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+h1 {
+  font-size: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
- #gameover-page h1{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 100px;
- }
-
- #gameover-page h3{
-    text-align: center;
-    font-size: 50px;
- }
-
-.dw{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10px;
-    margin-top: 120px;
-    border-radius: 50px;
- }
- 
- .restartbutton{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 30px;
-    margin-top: 100px;
-    color: white;
-    text-transform: uppercase;
-    font-weight: bolder;
-    background: #659743;
-    padding: 25px;
-    border-color: white;
-    border-width: 5px;
-    border-radius: 10px;
-    font-size: 20px;
+#gameover-page h1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 100px;
 }
 
-.side{
-    float: left;
-    margin-top: 240px;
-    margin-left: 100px;
+#gameover-page h3 {
+  text-align: center;
+  font-size: 50px;
 }
 
+.dw {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  margin-top: 120px;
+  border-radius: 50px;
+}
+
+.restartbutton {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  margin-top: 100px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bolder;
+  background: #659743;
+  padding: 25px;
+  border-color: white;
+  border-width: 5px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.side {
+  float: left;
+  margin-top: 240px;
+  margin-left: 100px;
+}

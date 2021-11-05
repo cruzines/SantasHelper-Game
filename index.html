@@ -1,39 +1,41 @@
-<!DOCTYPE html> 
-<html lang = "en">
-
-<head>
-    <meta charset = "UTF-8">
-    <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas&family=Poppins:wght@100&display=swap');
-        </style>
-    <link rel = "stylesheet" href = "styles.css"/>
+      @import url("https://fonts.googleapis.com/css2?family=Mountains+of+Christmas&family=Poppins:wght@100&display=swap");
+    </style>
+    <link rel="stylesheet" href="styles.css" />
     <title>Santa's Helper</title>
-</head>
+  </head>
 
-<body>
-    <section id = "start-page">
-        <img src = "./images/Santas-Helper-Transparent-PNG.png" alt = "gametitle" class = "center">  
-        <button id = "start-btn" class = "startbutton">Start Game</button>
-        <div id = "instructions-box">
-        <img src = "./images/arrows.png"> 
-        <h1>Use left and right arrow keys to help Santa catch your presents </h1>
-        </div>
-    </section>
-        
-    <section id = "game">
-        <canvas id ="myCanvas" width = "960" height ="569"></canvas>
-    </section>
-
-    <section id = "gameover-page">
-        <img src = "images/santabye.png" class = side>
-        <h1>Game Over</h1>
-        <h3 id = "final-score"></h3>
-        <button id = "restart" class = "restartbutton">Try again?</button>
-        <img src = "images/DW.png" class = dw>    
+  <body>
+    <section id="start-page">
+      <img
+        src="./images/Santas-Helper-Transparent-PNG.png"
+        alt="gametitle"
+        class="center"
+      />
+      <button id="start-btn" class="startbutton">Start Game</button>
+      <div id="instructions-box">
+        <img src="./images/arrows.png" />
+        <h1>Use left and right arrow keys to help Santa catch your presents</h1>
+      </div>
     </section>
 
-    <script src = "script.js"></script>
-</body>
+    <section id="game">
+      <canvas id="myCanvas" width="960" height="569"></canvas>
+    </section>
 
+    <section id="gameover-page">
+      <img src="images/santabye.png" class="side" />
+      <h1>Game Over</h1>
+      <h3 id="final-score"></h3>
+      <button id="restart" class="restartbutton">Try again?</button>
+      <img src="images/DW.png" class="dw" />
+    </section>
+
+    <script src="script.js"></script>
+  </body>
 </html>
