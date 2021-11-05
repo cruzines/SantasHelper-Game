@@ -1,7 +1,7 @@
 # Santa's Helper
 [Santa's Helper - The Game](https://cruzines.github.io/SantasHelper-Game/)
 ## Description
-Santa's helper is a Game where the player has to help Santa fill his Santa with presents. To do so, the player has to catch christmas presents that are falling from the top of the screen. The Game ends when the player catches an object that no child wants to receive.
+Santa's helper is a game where the player has to help Santa fill his bag with presents. To do so, the player has to catch christmas presents that are falling from the top of the screen. The game ends when Santa gets hurt 3 times with the falling objects that are not presents.
 
 ## MVP
 - Game has one Santa with his bag
@@ -10,6 +10,7 @@ Santa's helper is a Game where the player has to help Santa fill his Santa with 
 - The number of caught presents appear on the screen
 
 ## Backlog
+- Santa's character changes
 - Add music
 - Difficulty increases
 - Level up
@@ -30,24 +31,16 @@ Santa's helper is a Game where the player has to help Santa fill his Santa with 
 - handleStart () {}
 - draw () {}
 - animateSanta () {}
-- inscreaseSpeed () {}
 - restart () {}
 - Event Listeners () {}
 
 ### style.css
-- Start page:
-    center
-    startbutton
-    instructions-box
+- Start page
 - Game page
-    myCanvas
 - Game over page
-    gameover-page h1
-    gameover-page h3
-    dw
-    restartbutton
 
 ## States and States Trasitions
+Definition of the different states and their transition (transition functions)
 
 - StartScreen
 - GameScreen
@@ -74,8 +67,6 @@ Santa's helper is a Game where the player has to help Santa fill his Santa with 
 - Game - addEventListener
 
 ## Additional Links
-
+### Trello
 ### Git
-[Repository](https://github.com/cruzines/SantasHelper-Game)
-
 ### Slides
