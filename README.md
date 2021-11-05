@@ -79,4 +79,4 @@ Santa's helper is a Game where the player has to help Santa fill his Santa with 
 [Repository](https://github.com/cruzines/SantasHelper-Game)
 
 ### Slides
-[Presentation Slides](https://view.genial.ly/618276ef95ed480dbd10f84b/video-presentation-santas-helper)
+[PresentationSlides](https://view.genial.ly/618276ef95ed480dbd10f84b/video-presentation-santas-helper)
